@@ -1,0 +1,24 @@
+.cont-blog-content{
+    width: 80%;
+    margin: 60px auto;
+}
+
+.reply-comment{
+    margin-left: 4em;
+}
+@media screen and (max-width: 550px) {
+    .cont-blog-content{
+        width:100% ; 
+        padding:10px ; 
+    }
+    .reply-comment{
+        margin-left: 2em;
+    }
+    .chip-blog-tag{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 400px) {
+
+
+}

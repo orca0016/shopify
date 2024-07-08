@@ -1,0 +1,451 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    }
+  ],
+  "commentProducts": [
+    {
+      "id": 1,
+      "title": "test",
+      "message": "first post and comment ",
+      "postId": "1",
+      "userName": "1",
+      "isReply": []
+    },
+    {
+      "title": "this is  ایفون ۱۴",
+      "message": "خوبه دوستش دارم ",
+      "postId": "1",
+      "isReply": [],
+      "userName": "1",
+      "id": 2
+    },
+    {
+      "title": "this is comment for iphone 12",
+      "message": "and this for messsage",
+      "postId": "1",
+      "isReply": [],
+      "userName": ":r15:",
+      "id": 4
+    },
+    {
+      "title": "test",
+      "message": "testsets",
+      "postId": "1",
+      "isReply": [
+        {
+          "id": "0.5358723164902173",
+          "title": "reply",
+          "message": "jhkjhkjhkjhkj",
+          "userName": ":r15:"
+        }
+      ],
+      "userName": ":r15:",
+      "id": 5
+    },
+    {
+      "title": "fdg",
+      "message": "gfdgdg",
+      "postId": "1",
+      "isReply": [],
+      "userName": ":r15:",
+      "id": 6
+    },
+    {
+      "title": "hello ?",
+      "message": " any one hear?",
+      "postId": "2",
+      "isReply": [
+        {
+          "id": "0.6271359984705007",
+          "title": "hweeeelo",
+          "message": " by",
+          "userName": ":r15:"
+        }
+      ],
+      "userName": ":r15:",
+      "id": 7
+    }
+  ],
+  "profiles": [
+    {
+      "id": "1",
+      "username": "user",
+      "srcProfile": "https://mui.com/static/images/avatar/1.jpg",
+      "email": "user1@gmail.com",
+      "password": "1234"
+    },
+    {
+      "username": "ali",
+      "email": "ali@gmail.com",
+      "password": "ali123",
+      "srcProfile": "https://mui.com/static/images/avatar/2.jpg",
+      "id": ":r15:"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "nameProduct": "آیفون ۱۲",
+      "informationProduct": "آیفون ۱۲ از جمله جدیدترین گوشی‌های هوشمند شرکت اپل است که با قابلیت‌ها و امکانات برتر خود مخاطبان زیادی را جذب کرده است.",
+      "priceProduct": "15000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 2,
+      "nameProduct": "گوشی سامسونگ Galaxy S21 Ultra",
+      "informationProduct": "گوشی سامسونگ Galaxy S21 Ultra با صفحه نمایش بزرگ، دوربین پرقدرت و قابلیت‌های متنوع از جمله محبوب‌ترین گوشی‌های هوشمند در بازار است.",
+      "priceProduct": "17000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 3,
+      "nameProduct": "لپ تاپ ASUS ROG Strix Scar 15",
+      "informationProduct": "لپ تاپ ASUS ROG Strix Scar 15 یک لپ تاپ با عملکرد بالا و طراحی منحصر به فرد برای علاقمندان به بازی‌های رایانه‌ای است.",
+      "priceProduct": "25000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "pc",
+      "averageProduct": "4.9"
+    },
+    {
+      "id": 4,
+      "nameProduct": "تبلت Apple iPad Pro 12.9 (2021)",
+      "informationProduct": "تبلت Apple iPad Pro 12.9 از جمله بهترین تبلت‌های موجود در بازار است که با صفحه نمایش بزرگ و قدرت پردازش بالا عملکرد عالی را ارائه می‌دهد.",
+      "priceProduct": "20000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 5,
+      "nameProduct": "دوربین دیجیتال Nikon D850",
+      "informationProduct": "دوربین دیجیتال Nikon D850 یک دوربین حرفه‌ای با رزولوشن بالا و عملکرد عالی است که مناسب برای عکاسان حرفه‌ای و آماتور است.",
+      "priceProduct": "30000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "other",
+      "averageProduct": "4.9"
+    },
+    {
+      "id": 6,
+      "nameProduct": "کنسول بازی Sony PlayStation 5",
+      "informationProduct": "کنسول بازی Sony PlayStation 5 یکی از قدرتمندترین کنسول‌های بازی جهان است که با عملکرد بالا و تکنولوژی‌های پیشرفته علاقه‌مندان به بازی را جذب کرده است.",
+      "priceProduct": "3500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "console",
+      "averageProduct": "4.9"
+    },
+    {
+      "id": 7,
+      "nameProduct": "لپ تاپ Dell XPS 13",
+      "informationProduct": "لپ تاپ Dell XPS 13 با طراحی زیبا و عملکرد قدرتمند یکی از بهترین لپ تاپ‌های موجود در بازار است.",
+      "priceProduct": "18000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "pc",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 8,
+      "nameProduct": "هدفون بی سیم Sony WH-1000XM4",
+      "informationProduct": "هدفون بی سیم Sony WH-1000XM4 با کیفیت صدای عالی و لغو نویز فوق‌العاده مناسب برای گوش دادن به موسیقی در محیط‌های پرسروصدا است.",
+      "priceProduct": "3500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 9,
+      "nameProduct": "گوشی هوشمند Xiaomi Redmi Note 10 Pro",
+      "informationProduct": "گوشی هوشمند Xiaomi Redmi Note 10 Pro با دوربین ۱۰۸ مگاپیکسلی و باتری با ظرفیت بالا ارزش خرید بسیار خوبی دارد.",
+      "priceProduct": "6000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.6"
+    },
+    {
+      "id": 10,
+      "nameProduct": "هدست بلوتوثی Apple AirPods Pro",
+      "informationProduct": "هدست بلوتوثی Apple AirPods Pro با کیفیت صدای بسیار بالا و قابلیت لغو نویز فوق‌العاده مناسب برای استفاده در هر مکانی است.",
+      "priceProduct": "4500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 11,
+      "nameProduct": "لپ تاپ Apple MacBook Pro 13-inch (M1, 2020)",
+      "informationProduct": "لپ تاپ Apple MacBook Pro 13-inch با پردازنده M1 اپل یکی از بهترین لپ تاپ‌های مخصوص کاربری حرفه‌ای است.",
+      "priceProduct": "28000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "pc",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 12,
+      "nameProduct": "دوربین دیجیتال Canon EOS R5",
+      "informationProduct": "دوربین دیجیتال Canon EOS R5 با رزولوشن بالا و قابلیت ضبط ویدیوهای ۸K یکی از بهترین دوربین‌های حرفه‌ای در دسترس است.",
+      "priceProduct": "35000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "other",
+      "averageProduct": "4.9"
+    },
+    {
+      "id": 13,
+      "nameProduct": "کنسول بازی Xbox Series X",
+      "informationProduct": "کنسول بازی Xbox Series X با عملکرد بالا و توانایی اجرای بازی‌های جدید با کیفیت بالا ارزش خرید بسیار خوبی دارد.",
+      "priceProduct": "3500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "console",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 14,
+      "nameProduct": "هدفون بی سیم Bose QuietComfort Earbuds",
+      "informationProduct": "هدفون بی سیم Bose QuietComfort Earbuds با صدای بی‌نظیر و لغو نویز فوق‌العاده مناسب برای استفاده در هر مکانی است.",
+      "priceProduct": "3200000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 15,
+      "nameProduct": "گوشی هوشمند OnePlus 9 Pro",
+      "informationProduct": "گوشی هوشمند OnePlus 9 Pro با دوربین ۴۸ مگاپیکسلی و صفحه نمایش ۱۲۰ هرتزی یکی از بهترین گوشی‌های هوشمند موجود در بازار است.",
+      "priceProduct": "7000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 16,
+      "nameProduct": "تلویزیون هوشمند LG OLED65C1PUB",
+      "informationProduct": "تلویزیون هوشمند LG OLED65C1PUB با تصویر با کیفیت بالا و سیستم عامل WebOS یکی از بهترین تلویزیون‌های موجود در بازار است.",
+      "priceProduct": "35000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "other",
+      "averageProduct": "4.9"
+    },
+    {
+      "id": 17,
+      "nameProduct": "لپ تاپ HP Spectre x360",
+      "informationProduct": "لپ تاپ HP Spectre x360 با طراحی زیبا و عملکرد بالا یکی از بهترین گزینه‌ها برای استفاده روزمره و کاربری حرفه‌ای است.",
+      "priceProduct": "20000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "pc",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 18,
+      "nameProduct": "هدفون بی سیم Jabra Elite 85t",
+      "informationProduct": "هدفون بی سیم Jabra Elite 85t با کیفیت صدای عالی و ضد آب مناسب برای استفاده در هر شرایطی است.",
+      "priceProduct": "2800000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.6"
+    },
+    {
+      "id": 19,
+      "nameProduct": "کنسول بازی Nintendo Switch",
+      "informationProduct": "کنسول بازی Nintendo Switch با قابلیت استفاده به عنوان کنسول خانگی و همچنین کنسول قابل حمل ارزش خرید بسیار خوبی دارد.",
+      "priceProduct": "4500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "console",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 20,
+      "nameProduct": "گوشی هوشمند Google Pixel 5",
+      "informationProduct": "گوشی هوشمند Google Pixel 5 با دوربین عالی و نرم‌افزار پرقدرت یکی از بهترین گوشی‌های اندرویدی موجود است.",
+      "priceProduct": "5000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.6"
+    },
+    {
+      "id": 21,
+      "nameProduct": "تلویزیون هوشمند Samsung QN90A Neo QLED",
+      "informationProduct": "تلویزیون هوشمند Samsung QN90A Neo QLED با کیفیت تصویر بسیار بالا و امکانات هوشمند پیشرفته یکی از بهترین تلویزیون‌های موجود است.",
+      "priceProduct": "40000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "other",
+      "averageProduct": "4.9"
+    },
+    {
+      "id": 22,
+      "nameProduct": "هدفون بی سیم Sennheiser Momentum True Wireless 2",
+      "informationProduct": "هدفون بی سیم Sennheiser Momentum True Wireless 2 با کیفیت صدای عالی و طراحی زیبا مناسب برای استفاده در هر مکانی است.",
+      "priceProduct": "2800000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 23,
+      "nameProduct": "گوشی هوشمند Xiaomi Mi 11 Ultra",
+      "informationProduct": "گوشی هوشمند Xiaomi Mi 11 Ultra با دوربین ۵۰ مگاپیکسلی و نمایشگر دو کیفیته یکی از بهترین گوشی‌های هوشمند موجود است.",
+      "priceProduct": "8000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 24,
+      "nameProduct": "هدست بلوتوثی JBL Tune 225TWS",
+      "informationProduct": "هدست بلوتوثی JBL Tune 225TWS با کیفیت صدای عالی و طراحی کوچک و سبک مناسب برای استفاده در هر مکانی است.",
+      "priceProduct": "1800000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.6"
+    },
+    {
+      "id": 25,
+      "nameProduct": "تبلت Samsung Galaxy Tab S7+",
+      "informationProduct": "تبلت Samsung Galaxy Tab S7+ با نمایشگر بزرگ و عملکرد بالا مناسب برای کارهای حرفه‌ای و سرگرمی است.",
+      "priceProduct": "15000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 26,
+      "nameProduct": "لپ تاپ Apple MacBook Air M1",
+      "informationProduct": "لپ تاپ Apple MacBook Air M1 با پردازنده قدرتمند M1 و طراحی زیبا یکی از بهترین گزینه‌ها برای کاربری روزمره است.",
+      "priceProduct": "22000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "pc",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 27,
+      "nameProduct": "هدفون بی سیم Skullcandy Indy Fuel",
+      "informationProduct": "هدفون بی سیم Skullcandy Indy Fuel با کیفیت صدای عالی و طراحی مدرن مناسب برای گوش دادن به موسیقی در هر زمان و مکانی است.",
+      "priceProduct": "1200000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.6"
+    },
+    {
+      "id": 28,
+      "nameProduct": "کنسول بازی PlayStation 4 Pro",
+      "informationProduct": "کنسول بازی PlayStation 4 Pro با عملکرد بالا و کیفیت تصویر عالی یکی از پرفروش‌ترین کنسول‌های بازی است.",
+      "priceProduct": "5000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "console",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 29,
+      "nameProduct": "گوشی هوشمند Huawei P40 Pro",
+      "informationProduct": "گوشی هوشمند Huawei P40 Pro با دوربین عالی و نمایشگر بزرگ یکی از بهترین گوشی‌های هوشمند اندرویدی موجود است.",
+      "priceProduct": "6000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 30,
+      "nameProduct": "هدست بلوتوثی Beats Studio Buds",
+      "informationProduct": "هدست بلوتوثی Beats Studio Buds با کیفیت صدای بسیار بالا و طراحی شیک مناسب برای گوش دادن به موسیقی در هر مکانی است.",
+      "priceProduct": "2500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.6"
+    },
+    {
+      "id": 31,
+      "nameProduct": "گوشی هوشمند OnePlus Nord",
+      "informationProduct": "گوشی هوشمند OnePlus Nord با دوربین چندگانه و نمایشگر با کیفیت خوب یکی از بهترین گوشی‌های میان رده موجود است.",
+      "priceProduct": "3500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 32,
+      "nameProduct": "لپ تاپ Dell XPS 15",
+      "informationProduct": "لپ تاپ Dell XPS 15 با عملکرد بالا و طراحی زیبا یکی از بهترین گزینه‌ها برای استفاده روزمره و کاربری حرفه‌ای است.",
+      "priceProduct": "23000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "pc",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 33,
+      "nameProduct": "هدست بلوتوثی Sony WF-1000XM4",
+      "informationProduct": "هدست بلوتوثی Sony WF-1000XM4 با کیفیت صدای عالی و لغو نویز فوق‌العاده مناسب برای استفاده در هر مکانی است.",
+      "priceProduct": "2800000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 34,
+      "nameProduct": "کنسول بازی Nintendo Switch Lite",
+      "informationProduct": "کنسول بازی Nintendo Switch Lite با طراحی کوچک و سبک و قیمت مناسب یکی از پرفروش‌ترین کنسول‌های بازی است.",
+      "priceProduct": "2500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "console",
+      "averageProduct": "4.6"
+    },
+    {
+      "id": 35,
+      "nameProduct": "تبلت Apple iPad Air (2020)",
+      "informationProduct": "تبلت Apple iPad Air (2020) با طراحی زیبا و عملکرد بالا یکی از بهترین تبلت‌های موجود در بازار است.",
+      "priceProduct": "12000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 36,
+      "nameProduct": "هدفون بی سیم Samsung Galaxy Buds Pro",
+      "informationProduct": "هدفون بی سیم Samsung Galaxy Buds Pro با کیفیت صدای عالی و ضد آب مناسب برای استفاده در هر شرایطی است.",
+      "priceProduct": "2500000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 37,
+      "nameProduct": "گوشی هوشمند Motorola Edge 20 Pro",
+      "informationProduct": "گوشی هوشمند Motorola Edge 20 Pro با دوربین ۱۰۸ مگاپیکسلی و نمایشگر با کیفیت بالا یکی از بهترین گوشی‌های هوشمند موجود است.",
+      "priceProduct": "8000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "phone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 38,
+      "nameProduct": "لپ تاپ Lenovo ThinkPad X1 Carbon Gen 9",
+      "informationProduct": "لپ تاپ Lenovo ThinkPad X1 Carbon Gen 9 با طراحی زیبا و عملکرد بالا یکی از بهترین گزینه‌ها برای کاربری حرفه‌ای است.",
+      "priceProduct": "28000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "pc",
+      "averageProduct": "4.8"
+    },
+    {
+      "id": 39,
+      "nameProduct": "هدفون بی سیم Jabra Elite 75t",
+      "informationProduct": "هدفون بی سیم Jabra Elite 75t با کیفیت صدای عالی و طراحی شیک مناسب برای استفاده در هر مکانی است.",
+      "priceProduct": "2200000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "headphone",
+      "averageProduct": "4.7"
+    },
+    {
+      "id": 40,
+      "nameProduct": "تلویزیون هوشمند Sony Bravia XR-65A90J",
+      "informationProduct": "تلویزیون هوشمند Sony Bravia XR-65A90J با کیفیت تصویر بسیار بالا و سیستم عامل Android TV یکی از بهترین تلویزیون‌های موجود است.",
+      "priceProduct": "50000000",
+      "imageProduct": "https://mihanwp.com/demo/ahura/digigame/wp-content/uploads/sites/128/2024/03/marathon-1536x864.webp",
+      "category": "other",
+      "averageProduct": "4.9"
+    }
+  ]
+}

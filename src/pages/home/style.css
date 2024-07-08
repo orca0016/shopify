@@ -1,0 +1,221 @@
+/* start home styles */
+.home-section {
+  background-image: url(../../assets/images/banner-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-color: #0d0d0d;
+  /* min-height: 100vh; */
+  background-position: right top;
+  position: relative;
+}
+.carousel-section {
+  line-height: 60px;
+  letter-spacing: normal;
+}
+.card-carousel img {
+  margin: 10px auto;
+}
+.card-carousel {
+  /* height: 291px; */
+  background: #000;
+  text-align: center;
+  padding: 15px;
+  transition: 0.5s;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.card-carousel:hover {
+  background-color: #7f00ff;
+}
+
+.parent {
+  width: 100%;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.about-us-section div {
+  width: 50%;
+}
+@media (max-width: 990px) {
+  .about-us-section div {
+    width: 100%;
+  }
+  .box-blogs {
+    padding: 20px 30px;
+  }
+}
+
+.card-price {
+  width: 100%;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%; /* عرض iframe */
+  height: 315px; /* ارتفاع iframe */
+  overflow: hidden;
+  border-radius: 8px; /* شکل گوشه های iframe */
+}
+
+.iframe-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/gallery/h1-2.jpg"); /* تصویر کاور */
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* قرار دادن کاور بر روی iframe */
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* قرار دادن iframe در پشت کاور */
+}
+
+.slide-comment {
+  background-color: #000;
+  padding: 70px 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  min-height: 400px;
+  width: 100%;
+}
+.slide-comment:before {
+  content: url(../../assets/images/commnets/quotes-img.png);
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00fcc6;
+}
+
+.logos-bg {
+  width: 95%;
+  height: 50px;
+  margin: 0 auto;
+  background-image: url(../../assets/images/commnets/logos.png);
+  background-size: contain;
+  background-position: 0px;
+  transition: 1s;
+  background-repeat: repeat-x;
+  background-color: aquamarine;
+  animation: logos 10s infinite alternate;
+}
+@keyframes logos {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 300%;
+  }
+}
+
+.con-blogs-home {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.card-blogs {
+  background-color: #000 !important;
+  background-image: none !important ;
+}
+.card-blogs:hover .img-blog-card {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 400px) {
+  .home-section {
+    height: 50vh;
+    padding-top: 70px;
+    background-position: right top;
+    background-size: 120%;
+    text-align: center;
+  }
+  .home-section div {
+    padding: 10px 0px 0px 0px;
+    align-items: center;
+  }
+  .br-home {
+    display: none;
+  }
+}
+@media screen and (max-width: 950px) {
+  .about-us-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .about-us-section .justify-left {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .div-card-carousel {
+    padding: 10px 30px;
+  }
+  .about-us-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .about-us-section .justify-left {
+    justify-content: center;
+  }
+  .about-us-section .justify-left img {
+    width: 100%;
+  }
+  .price-card {
+    padding: 20px 30px;
+  }
+  .video-swiper {
+    padding: 10px;
+  }
+  .box-blogs {
+    padding: 20px 10px;
+  }
+  .comment-section,
+  .logos-bg {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card-blogs {
+    width: 100%;
+  }
+  .box-blogs {
+    padding: 0 10px;
+  }
+  .con-blogs-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+/* end home styles */
+
+@media screen and (min-width: 1824px) {
+  .home-section {
+    height: 100vh;
+  }
+}

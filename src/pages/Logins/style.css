@@ -1,0 +1,205 @@
+.btn-right-forget {
+  z-index: 10;
+}
+.btn-right-forget:after {
+  width: 50em;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  z-index: 0;
+  transform: translateY(-50%);
+  border-top: 3px dashed #4d4d4d;
+}
+.card-form-forgot {
+  width: 400px;
+  max-width: 500px;
+  height: 70vh;
+  background: #10101038;
+  backdrop-filter: blur(6px);
+  z-index: 10;
+  border: 1px solid rgba(128, 128, 128, 0.472);
+  border-radius: 20px;
+  padding: 47px 40px;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.311);
+}
+.right-card-form-forgot {
+  position: relative;
+}
+.right-card-form-forgot::after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+  top: 30px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(#7f00ff, #2d0a30);
+  animation: foaltAnimation infinite 3s ease-in-out ;
+}
+.right-card-form-forgot::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+  bottom: 30px;
+  right: 140px;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to top, #00fcc6, #2d0a30);
+  animation: foaltAnimation2 infinite 4s ease-in-out ;
+  animation-delay: .5;
+}
+@media screen and (max-width: 850px) {
+  .cont-forget-pass {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+    .cont-forget-pass {
+        gap: 40px;
+        padding: 50px;
+  }
+  .right-card-form-forgot::before {
+      right:6px ;
+    bottom:-40px; 
+}
+.right-card-form-forgot::after {
+    left:-16px ;
+    top:-20px; 
+}
+}
+
+@media screen and (max-width: 400px) {
+    .cont-forget-pass {
+        padding:60px 10px;
+    }
+    
+    .cont-forget-pass  > div:nth-child(1){
+     padding: 10px 0px;
+    }
+.card-form-forgot {
+    padding: 30px 20px;
+}
+}
+
+
+
+/* signUp */
+.btn-right-signUp {
+  z-index: 10;
+}
+.btn-right-signUp:after {
+  width: 50em;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  z-index: 0;
+  transform: translateY(-50%);
+  border-top: 3px dashed #4d4d4d;
+}
+.card-form-signUp {
+  width: 400px;
+  max-width: 500px;
+  min-height: 80vh;
+  background: #10101038;
+  backdrop-filter: blur(6px);
+  z-index: 10;
+  border: 1px solid rgba(128, 128, 128, 0.472);
+  border-radius: 20px;
+  padding: 47px 40px;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.311);
+}
+.right-card-form-signUp {
+  position: relative;
+}
+.right-card-form-signUp::after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+  top: 30px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(#7f00ff, #2d0a30);
+  animation: foaltAnimation2 infinite 4s ease-in-out ;
+  animation-delay: .5;
+}
+.right-card-form-signUp::before {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  z-index: 0;
+  bottom: 30px;
+  right: 140px;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to top, #00fcc6, #2d0a30);
+  animation: foaltAnimation infinite 3s ease-in-out;
+}
+@media screen and (max-width: 850px) {
+  .cont-signUp-pass {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+    .cont-signUp-pass {
+        gap: 40px;
+        padding: 50px;
+  }
+  .right-card-form-signUp::before {
+      right:6px ;
+    bottom:-40px; 
+}
+.right-card-form-signUp::after {
+    left:-16px ;
+    top:-20px; 
+}
+}
+
+@media screen and (max-width: 400px) {
+    .cont-signUp-pass {
+        padding:60px 10px;
+    }
+    
+    .cont-signUp-pass  > div:nth-child(1){
+     padding: 10px 0px;
+    }
+.card-form-signUp {
+    padding: 30px 20px;
+}
+}
+
+
+
+
+
+@keyframes foaltAnimation {
+  0%{
+    transform: translateY(0px) translateX(0px);
+  }
+  50%{
+    transform: translateY(20px)translateX(-10px) ;
+
+  }
+  100%{
+    transform: translateY(0px)translateX(0px);
+  }
+}
+@keyframes foaltAnimation2 {
+  0%{
+    transform: translateY(0px)scale(1);
+  }
+  50%{
+    transform: translateY(-15px) scale(1.1) ;
+    
+  }
+  100%{
+    transform: translateY(0px)scale(1);
+  }
+}

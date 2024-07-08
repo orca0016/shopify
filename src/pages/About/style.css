@@ -1,0 +1,64 @@
+.background-about-gradient {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: radial-gradient(
+    at 55.774% 52.156%,
+    rgba(8, 107, 94, 1) 0%,
+    transparent 66%
+  );
+  background-size: 100% 32%;
+  background-repeat: no-repeat;
+}
+.top-section {
+  padding: 80px 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.gradient-number-about {
+  position: absolute;
+  /* width: 130px;
+  height: 130px; */
+  bottom: 20px;
+  left: -50px;
+  text-align: center;
+  background: linear-gradient(to top, #00fcc6, #7f00ff);
+  padding: 10px;
+}
+.list-eagle {
+  line-height: 30px;
+}
+.about-small-img {
+  position: absolute;
+  right: 30px;
+  bottom: -50px;
+  width: 180px;
+}
+@media screen and (max-width: 950px) {
+  .top-section {
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .top-section .fox-resp {
+    order: 0;
+  }
+  .top-section .fox-resp .gradient-number-about {
+    transform: scale(0.7);
+    bottom: -40px;
+  }
+  .top-section .fox-resp img {
+    width: 20em;
+  }
+  .top-section .fox-resp-title {
+    order: 1;
+    text-align: center;
+  }
+  .about-section-resp {
+    gap: 100px;
+  }
+  .about-small-img {
+    width: 90px !important;
+    right: -10px;
+  }
+}

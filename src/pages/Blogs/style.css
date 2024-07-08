@@ -1,0 +1,13 @@
+.bg-blogs-show {
+  background-image: url(../../assets/images/price/about-before-img.png);
+  background-position:  center 0px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 950px) {
+  .cont-card-blogs{
+    padding: 20px 10px;
+  }
+  .bg-blogs-show {
+    padding-top: 50;
+  }
+}

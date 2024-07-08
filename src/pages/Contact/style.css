@@ -1,0 +1,43 @@
+
+.container-contact {
+  background-color: rgba(10, 13, 23, 1);
+  /* background-image: radial-gradient(
+      at 78.406% 67.351%,
+      rgba(118, 58, 245, 1) 0%,
+      transparent 28%
+    ),
+    radial-gradient(
+      at 33.949% 24.23%,
+      rgba(118, 58, 245, 1) 0%,
+      transparent 16%
+    ),
+    radial-gradient(
+      at 20.439% 74.743%,
+      rgba(118, 58, 245, 1) 0%,
+      transparent 20%
+    ); */
+    /* filter: blur(10px); */
+    background: url('../../assets/images/contact/Contact\ Form.png') no-repeat center cover; 
+    
+}
+@media screen and (max-width:1000px) {
+    .card-contact{
+        flex-direction: column;
+    }
+    .img-cart-contact{
+        order:1;
+        width: 100%;
+    }
+    .img-cart-contact img{
+        width: 100%;
+    }
+    .form-cart-contact{
+        order:2;
+        width: 100%;
+    }
+}
+        @media screen and (max-width:570px) {
+            .container-contact{
+                padding: 100px 20px;
+            }
+        }

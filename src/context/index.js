@@ -1,0 +1,27 @@
+import { createContext } from "react";
+
+export default createContext({
+  drawerOpen: false,
+  setDrawerOpen: () => {},
+  AllProduct: [],
+  setAllProduct: () => {},
+  product: [],
+  setProduct: () => {},
+  renderCart: false,
+  setRenderCart: () => {},
+  favoriteProduct: [],
+  setFavoriteProduct: () => {},
+  commentProducts: [],
+  setCommentProducts: () => {},
+  createNewComment: () => {},
+  createNewUser: () => {},
+  profiles:[],
+  setProfiles: () => {},
+  user: {},
+  setUser: () => {},
+  replyCommentProduct: () => {},
+  deleteCommentProduct: () => {},
+  deleteReplyCommentProduct: () => {},
+  forceRenderLogin: false,
+  setForceRenderLogin: ()=>{},
+});

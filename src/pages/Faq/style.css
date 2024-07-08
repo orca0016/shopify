@@ -1,0 +1,32 @@
+.faq-title div {
+  max-width: 90%;
+  grid-template-columns: 31% 38% 31%;
+}
+.faq-title div div img {
+  width: 400px;
+}
+.cont-accordion {
+  width: 80%;
+  margin: 0 auto;
+}
+.MuiAccordion-root {
+  background-color: #000 !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #262626;
+  padding: 20px 10px;
+}
+.yarl__button.yarl__navigation_next {
+  display: none;
+}
+.yarl__button.yarl__navigation_prev   {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .faq-title div {
+    grid-template-columns: 100%;
+  }
+  .cont-accordion {
+    width: 100%;
+    padding: 50px;
+  }
+}

@@ -1,0 +1,40 @@
+.background-price-gradient {
+  background-image: url(../../assets/images/price/about-before-img.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+.cont-price {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.features-banner {
+  background-image: url(../../assets/images/price/h1-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 30px;
+
+  /* min-height: 200px; */
+}
+.cont-banner-price {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cont-banner-price div {
+  min-width: 300px;
+}
+@media screen and (max-width: 765px) {
+  .cont-price {
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 695px) {
+  .features-banner {
+    height: 80vh;
+    background-size: cover;
+  }
+}
